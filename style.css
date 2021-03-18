@@ -1,0 +1,99 @@
+.wrapper {
+  margin-outside: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: [first] 335px [second] 270px [third] auto [fourth] 165px [fifth] 40px [sixth] auto [seventh] 40px [eighth] 165px [ninth] 200px [tenth]  335px [eleventh] auto [last];
+  grid-template-rows: [first] 170px [second] 35px [third] 495px [fourth] 50px [fifth] 265px [sixth] 50px [seventh] 335px [eighth] 50px [ninth] 335px [tenth] 50px [eleventh] 740px [twelve] 50px [thirteenth] 400px [fourteen] 50px [last];
+}
+.box1 {
+  background-color: #62b3f8;
+  grid-column-start: first;
+  grid-column-end: last;
+  grid-row-start: first;
+  grid-row-end: second;
+}
+.box2 {
+  background-color: #a874cc;
+  grid-column-start: first;
+  grid-column-end: last;
+  grid-row-start: third;
+  grid-row-end: fourth;
+}
+.box3 {
+  background-color: #216d49;
+  grid-column-start: first;
+  grid-column-end: seventh;
+  grid-row-start: fifth;
+  grid-row-end: sixth;
+}
+.box4 {
+  background-color: #2f6aa5;
+  grid-column-start: eighth;
+  grid-column-end: last;
+  grid-row-start: fifth;
+  grid-row-end: sixth;
+}
+.box5 {
+  background-color: #e29813;
+  grid-column-start: first;
+  grid-column-end: second;
+  grid-row-start: seventh;
+  grid-row-end: eighth;
+}
+.box6 {
+  background-color: #51ab50;
+  grid-column-start: third;
+  grid-column-end: fifth;
+  grid-row-start: seventh;
+  grid-row-end: eighth;
+}
+.box7 {
+  background-color: #ff0000;
+  grid-column-start: sixth;
+  grid-column-end: last;
+  grid-row-start: seventh;
+  grid-row-end: eighth;
+}
+.box8 {
+  background-color: #ffe600;
+  grid-column-start: first;
+  grid-column-end: fifth;
+  grid-row-start: ninth;
+  grid-row-end: twelve;
+}
+.box9 {
+  background-color: #02f942;
+  grid-column-start: sixth;
+  grid-column-end: ninth;
+  grid-row-start: ninth;
+  grid-row-end: tenth;
+}
+.box10 {
+  background-color: #aff902;
+  grid-column-start: tenth;
+  grid-column-end: last;
+  grid-row-start: ninth;
+  grid-row-end: tenth;
+}
+.box11 {
+  background-color: #02f9e4;
+  grid-column-start: sixth;
+  grid-column-end: last;
+  grid-row-start: eleventh;
+  grid-row-end: twelve;
+}
+.box12 {
+  background-color: #5c00ff;
+  grid-column-start: first;
+  grid-column-end: last;
+  grid-row-start: thirteenth;
+  grid-row-end: fourteen;
+}
+.box13 {
+  background-color: #ffffff;
+  grid-column-start: first;
+  grid-column-end: last;
+  grid-row-start: fourteen;
+  grid-row-end: last;
+}
+/*# sourceMappingURL=style.css.map */
